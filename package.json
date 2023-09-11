@@ -1,0 +1,18 @@
+{
+  "name": "mocktools-test",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "mocktools && bun test"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "mocktools": "^0.8.1",
+    "zod": "^3.22.2"
+  }
+}
