@@ -62,6 +62,7 @@ describe("mocktools", () => {
         const [mockValue] = mock<TestMappedType[]>("MappedType", () => [], {
             length: 10,
         });
+        expect(Object.entries(mockValue).length).toBeGreaterThanOrEqual(1);
         expect(Object.entries(mockValue).every(([key, value]) => typeof key === "string" && typeof value === "boolean")).toBe(true);
     });
     it("works with inferred zod objects", () => {
