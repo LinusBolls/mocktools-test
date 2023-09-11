@@ -1,6 +1,6 @@
 # mocktools-test
 
-some well-meaning qa [mocktools](https://www.npmjs.com/package/mocktools) npm package
+some well-meaning qa for the [mocktools](https://www.npmjs.com/package/mocktools) npm package
 
 To install dependencies:
 
