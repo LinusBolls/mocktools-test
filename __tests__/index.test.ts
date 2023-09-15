@@ -1,8 +1,8 @@
 import { describe, expect, it } from "bun:test";
 import { z } from "zod"
-import { mock } from "mocktools";
+import { mock } from "inatic";
 
-describe("mocktools", () => {
+describe("inatic.mock", () => {
 
     it("works with strings", () => {
 
